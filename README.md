@@ -89,31 +89,31 @@ The UML Class Diagram illustrates the relationships between the system's core cl
 
 ## UML Class Diagram
 
-![UML Class Diagram](images/image1.png)
+![UML Class Diagram](images/image1.jpeg)
 
 ---
 
 ## Main Menu
 
-![Main Menu](images/image2.png)
+![Main Menu](images/image2.jpeg)
 
 ---
 
 ## Add Student
 
-![Add Student](images/image3.png)
+![Add Student](images/image3.jpeg)
 
 ---
 
 ## Search Student
 
-![Search Student](images/image4.png)
+![Search Student](images/image4.jpeg)
 
 ---
 
 ## Student Report
 
-![Student Report](images/image5.png)
+![Student Report](images/image5.jpeg)
 
 ---
 
