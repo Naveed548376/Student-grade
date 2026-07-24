@@ -85,13 +85,35 @@ The UML Class Diagram illustrates the relationships between the system's core cl
 - Aggregation
 - Composition
 
-> *(Add your UML Class Diagram image here)*
+# 📸 Project Screenshots
 
-Example:
+## UML Class Diagram
 
-```markdown
-![UML Class Diagram](images/UML_Class_Diagram.png)
-```
+![UML Class Diagram](images/image1.png)
+
+---
+
+## Main Menu
+
+![Main Menu](images/image2.png)
+
+---
+
+## Add Student
+
+![Add Student](images/image3.png)
+
+---
+
+## Search Student
+
+![Search Student](images/image4.png)
+
+---
+
+## Student Report
+
+![Student Report](images/image5.png)
 
 ---
 
