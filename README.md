@@ -1,226 +1,265 @@
-# 🎓 Grade Book Management System
+<div align="center">
 
-A **Java-based Grade Book Management System** developed using **Object-Oriented Programming (OOP)** principles. The application allows users to manage student records, record subject marks, calculate averages, assign grades, generate reports, and analyze overall class performance through a simple console-based interface.
+# 🎓 Student Grade Management System
 
----
+### A Java-based Grade Book Management System built using Object-Oriented Programming (OOP)
 
-## 📖 Overview
+![Java](https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=java)
+![OOP](https://img.shields.io/badge/OOP-Concepts-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+![License](https://img.shields.io/badge/License-Educational-green?style=for-the-badge)
 
-The Grade Book Management System is designed to simplify academic record management by automating common tasks such as storing student information, calculating average marks, assigning grades, and generating performance reports.
-
-This project demonstrates the practical implementation of core **Java** and **Object-Oriented Programming (OOP)** concepts including:
-
-- Encapsulation
-- Abstraction
-- Composition
-- Aggregation
-- Modularity
+</div>
 
 ---
 
-## ✨ Features
+# 📖 About the Project
+
+The **Student Grade Management System** is a console-based Java application developed using **Object-Oriented Programming (OOP)** principles. It provides an efficient way to manage student academic records by allowing users to add students, record subject marks, calculate averages, assign grades, search student records, and generate performance reports.
+
+This project demonstrates clean software design through modular classes and practical implementation of Java OOP concepts.
+
+---
+
+# ✨ Features
 
 - ➕ Add New Students
-- 📚 Store Multiple Subject Marks
+- 📚 Manage Multiple Subjects
 - 📊 Automatic Average Calculation
 - 🏆 Automatic Grade Assignment
-- 🔍 Search Students by Name
+- 🔍 Search Student by Name
 - 📄 Generate Student Reports
 - 📈 Display Overall Statistics
 - ✅ Input Validation
-- 💾 Dynamic Student Storage using ArrayList
-- 🖥️ Console-Based Interactive Menu
+- 💾 Dynamic Data Storage using ArrayList
+- 🖥️ Interactive Console Menu
 
 ---
 
-## 🛠️ Technologies Used
+# 🛠 Technologies Used
 
-- Java
-- Object-Oriented Programming (OOP)
-- ArrayList
-- Scanner
-- UML Class Diagram
-- Git & GitHub
+| Technology | Purpose |
+|------------|----------|
+| Java | Programming Language |
+| Object-Oriented Programming | Software Design |
+| ArrayList | Dynamic Data Storage |
+| Scanner | User Input |
+| UML | System Design |
+| Git | Version Control |
+| GitHub | Project Hosting |
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
-```
-GradeBookSystem/
+```text
+Student-grade/
 │
-├── GradeBook.java
-├── Student.java
-├── Subject.java
-├── GradeBookApp.java
+├── images/
+│   ├── image1.jpeg
+│   ├── image2.jpeg
+│   ├── image3.jpeg
+│   ├── image4.jpeg
+│   └── image5.jpeg
+│
 ├── Student_grade.java
 └── README.md
 ```
 
 ---
 
-## 🏗️ System Architecture
+# 🏗 UML Class Diagram
 
-The project follows a modular object-oriented architecture consisting of four main classes.
+The following UML Class Diagram illustrates the architecture and relationships between the major classes used in the system.
 
-### GradeBook
-Responsible for managing all student records.
-
-### Student
-Stores student information, calculates average marks, and assigns grades.
-
-### Subject
-Represents an individual subject and its obtained marks.
-
-### GradeBookApp
-Acts as the main entry point of the application and manages user interaction.
+<p align="center">
+<img src="images/image1.jpeg" width="900"/>
+</p>
 
 ---
-
-## 📊 UML Class Diagram
-
-The UML Class Diagram illustrates the relationships between the system's core classes.
-
-- Association
-- Aggregation
-- Composition
 
 # 📸 Project Screenshots
 
-## UML Class Diagram
+## 📌 UML Class Diagram
 
-![UML Class Diagram](images/image1.jpeg)
-
----
-
-## Main Menu
-
-![Main Menu](images/image2.jpeg)
+<p align="center">
+<img src="images/image1.jpeg" width="850"/>
+</p>
 
 ---
 
-## Add Student
+## 🏠 System Overview
 
-![Add Student](images/image3.jpeg)
-
----
-
-## Search Student
-
-![Search Student](images/image4.jpeg)
+<p align="center">
+<img src="images/image2.jpeg" width="850"/>
+</p>
 
 ---
 
-## Student Report
+## 📚 Student & Subject Management
 
-![Student Report](images/image5.jpeg)
+<p align="center">
+<img src="images/image3.jpeg" width="850"/>
+</p>
 
 ---
 
-## 🚀 How to Run
+## 📊 Grade Calculation Flow
 
-### Clone the Repository
+<p align="center">
+<img src="images/image4.jpeg" width="850"/>
+</p>
+
+---
+
+## ⚙ Complete Class Relationships
+
+<p align="center">
+<img src="images/image5.jpeg" width="850"/>
+</p>
+
+---
+
+# 🧩 Core Classes
+
+## 📘 GradeBook
+
+Responsible for managing all student records.
+
+### Responsibilities
+
+- Add Students
+- Display All Records
+- Generate Reports
+- Search Students
+- Display Statistics
+
+---
+
+## 👨‍🎓 Student
+
+Represents an individual student.
+
+### Responsibilities
+
+- Store Student Information
+- Calculate Average
+- Assign Grade
+- Display Student Details
+
+---
+
+## 📖 Subject
+
+Represents an academic subject and the obtained marks.
+
+### Responsibilities
+
+- Store Subject Name
+- Store Marks
+- Validate Input
+
+---
+
+## 🚀 GradeBookApp
+
+Acts as the main controller of the application.
+
+### Responsibilities
+
+- Display Menu
+- Handle User Input
+- Call GradeBook Methods
+- Control Program Flow
+
+---
+
+# 📚 Object-Oriented Concepts Used
+
+- ✅ Encapsulation
+- ✅ Abstraction
+- ✅ Composition
+- ✅ Aggregation
+- ✅ Modularity
+- ✅ Data Hiding
+- ✅ Reusability
+
+---
+
+# 🚀 Getting Started
+
+## Clone the Repository
 
 ```bash
 git clone https://github.com/Naveed548376/Student-grade.git
 ```
 
-Move into the project folder
+## Navigate to the Project
 
 ```bash
 cd Student-grade
 ```
 
-Compile the project
+## Compile
 
 ```bash
-javac *.java
+javac Student_grade.java
 ```
 
-Run the application
+## Run
 
 ```bash
-java GradeBookApp
+java Student_grade
 ```
 
 ---
 
-## 📸 Sample Output
+# 🎯 Project Objectives
 
-```
-========== Grade Book Management System ==========
-1. Add Student
-2. Display All Students
-3. Search Student
-4. Generate Report
-5. Show Statistics
-6. Exit
-
-Enter your choice:
-```
-
----
-
-## 📚 Object-Oriented Concepts Used
-
-- Encapsulation
-- Abstraction
-- Inheritance (where applicable)
-- Composition
-- Aggregation
-- Modularity
-- Data Hiding
-- Reusability
-
----
-
-## 🎯 Project Objectives
-
-- Automate student grade management
+- Automate grade management
 - Reduce manual calculation errors
 - Demonstrate Java OOP concepts
-- Improve academic record organization
-- Generate meaningful reports and statistics
+- Organize student records efficiently
+- Generate meaningful academic reports
 
 ---
 
-## 🌟 Future Enhancements
+# 🌟 Future Enhancements
 
-- Graphical User Interface (JavaFX/Swing)
-- Database Integration (MySQL/SQLite)
-- User Authentication
-- Export Reports to PDF
-- Excel Support
-- Teacher Dashboard
-- Student Dashboard
-- GPA & CGPA Calculation
-- Attendance Management
-- Cloud Storage
-- Web-Based Version
+- 🖥 Graphical User Interface (JavaFX/Swing)
+- 🗄 Database Integration (MySQL/SQLite)
+- 🔐 User Authentication
+- 📄 Export Reports to PDF
+- 📊 Excel Report Generation
+- 👨‍🏫 Teacher Dashboard
+- 👨‍🎓 Student Dashboard
+- ☁ Cloud Storage
+- 🌐 Web-Based Version
+- 📱 Mobile Application
 
 ---
 
-## 📈 Learning Outcomes
+# 📈 Learning Outcomes
 
-Through this project, the following concepts were implemented:
+This project demonstrates:
 
 - Java Programming
-- Object-Oriented Design
+- Object-Oriented Programming
+- UML Design
 - Class Relationships
-- Arrays & ArrayList
-- Exception Handling
-- User Input Validation
 - Modular Programming
-- Software Design Principles
+- Data Structures
+- User Input Validation
+- Software Engineering Principles
 
 ---
 
-## 🤝 Contributing
+# 🤝 Contributing
 
-Contributions are welcome!
+Contributions are welcome.
 
 1. Fork the repository
-2. Create a feature branch
+2. Create a new branch
 
 ```bash
 git checkout -b feature-name
@@ -229,10 +268,10 @@ git checkout -b feature-name
 3. Commit your changes
 
 ```bash
-git commit -m "Add new feature"
+git commit -m "Added new feature"
 ```
 
-4. Push to your branch
+4. Push your branch
 
 ```bash
 git push origin feature-name
@@ -242,29 +281,26 @@ git push origin feature-name
 
 ---
 
-## 📄 License
+# 📄 License
 
-This project is developed for educational purposes and is available for learning and academic use.
+This project is intended for **educational and learning purposes**.
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Naveed Abbas**
 
-Cyber Security Student | Java Developer | C++ Developer
+💻 Java Developer | Cyber Security Student
 
-GitHub: https://github.com/Naveed548376
-
----
-
-## ⭐ Support
-
-If you found this project helpful, consider giving it a ⭐ on GitHub.
-
-It helps others discover the project and motivates further development.
+**GitHub:** https://github.com/Naveed548376
 
 ---
 
-> **"Good software is built one class at a time, but great software is built with clean design."**
-> 
+<div align="center">
+
+## ⭐ If you found this project useful, don't forget to give it a star!
+
+**"Clean code and clean design are the foundation of great software."**
+
+</div>
