@@ -73,7 +73,7 @@ Student-grade/
 The following UML Class Diagram illustrates the architecture and relationships between the major classes used in the system.
 
 <p align="center">
-<img src="images/image1.jpeg" width="900"/>
+<img src="images/image5.jpeg" width="900"/>
 </p>
 
 ---
@@ -83,7 +83,7 @@ The following UML Class Diagram illustrates the architecture and relationships b
 ## 📌 UML Class Diagram
 
 <p align="center">
-<img src="images/image1.jpeg" width="850"/>
+<img src="images/image5.jpeg" width="850"/>
 </p>
 
 ---
@@ -115,7 +115,7 @@ The following UML Class Diagram illustrates the architecture and relationships b
 ## ⚙ Complete Class Relationships
 
 <p align="center">
-<img src="images/image5.jpeg" width="850"/>
+<img src="images/image1.jpeg" width="850"/>
 </p>
 
 ---
